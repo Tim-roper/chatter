@@ -1,5 +1,6 @@
-package au.myob.com.chatter.server.protocol;
+package au.myob.com.chatter.protocol;
 
-public class ChatterProtocolCommand {
-	private String command;
+public enum ChatterProtocolCommand {
+		CLIENT_CONNECT_REQUEST,
+		SERVER_ACCEPT
 }
